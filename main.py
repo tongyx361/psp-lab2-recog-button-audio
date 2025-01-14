@@ -113,7 +113,7 @@ if __name__ == "__main__":
     result = key_tone_recognition(input_audio_array)
 
     # Print the recognition result
-    print("Recognition result:", result)
+    print(result)
 
     # Compare with reference file
     if args.ref_file is not None and Path(args.ref_file).exists():
